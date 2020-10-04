@@ -1,0 +1,2 @@
+call ExileServer_World_loadAllBarters;
+true

@@ -25,6 +25,7 @@ _trader =
     _workBench
 ]
 call ExileClient_object_trader_create;
+_trader addAction ["Hardware Barter", {2 call ExileClient_gui_barterDialog_show;},"",-5,true ,true ,"","true",3];
 
 ///////////////////////////////////////////////////////////////////////////
 // Fast Food Trader
@@ -78,6 +79,7 @@ _trader =
     _chair
 ]
 call ExileClient_object_trader_create;
+_trader addAction ["Weapons Barter", {1 call ExileClient_gui_barterDialog_show;},"",-5,true ,true ,"","true",3];
 
 ///////////////////////////////////////////////////////////////////////////
 // Equipment Trader
@@ -120,6 +122,7 @@ _trader =
     220
 ]
 call ExileClient_object_trader_create;
+_trader addAction ["Community Barter", {0 call ExileClient_gui_barterDialog_show;},"",-5,true ,true ,"","true",3];
 
 ///////////////////////////////////////////////////////////////////////////
 // Waste Dump Trader
