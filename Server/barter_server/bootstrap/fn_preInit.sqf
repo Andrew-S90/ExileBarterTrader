@@ -19,8 +19,9 @@ private ['_code', '_function', '_file'];
 }
 forEach 
 [
-	['ExileServer_system_vg_network_VGPublic_Load', 'PublicVirtualGarage_server\code\ExileServer_system_vg_network_VGPublic_Load.sqf'],
-	['ExileServer_system_vg_network_VGPublic_Store', 'PublicVirtualGarage_server\code\ExileServer_system_vg_network_VGPublic_Store.sqf']
+	['ExileServer_system_barter_network_tradeItemsRequest', 'barter_server\code\ExileServer_system_barter_network_tradeItemsRequest.sqf'],
+	['ExileServer_system_barter_network_withdrawTradeItemRequest', 'barter_server\code\ExileServer_system_barter_network_withdrawTradeItemRequest.sqf'],
+	['ExileServer_World_loadAllBarters', 'barter_server\code\ExileServer_World_loadAllBarters.sqf']
 ];
 
 
