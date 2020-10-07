@@ -21,6 +21,7 @@ forEach
 [
 	['ExileServer_system_barter_network_tradeItemsRequest', 'barter_server\code\ExileServer_system_barter_network_tradeItemsRequest.sqf'],
 	['ExileServer_system_barter_network_withdrawTradeItemRequest', 'barter_server\code\ExileServer_system_barter_network_withdrawTradeItemRequest.sqf'],
+	['ExileServer_util_searchItemsArray', 'barter_server\code\ExileServer_util_searchItemsArray.sqf'],
 	['ExileServer_World_loadAllBarters', 'barter_server\code\ExileServer_World_loadAllBarters.sqf']
 ];
 

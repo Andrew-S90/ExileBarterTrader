@@ -51,7 +51,7 @@ try
 	
 	_data = [];
 	
-	_index = [_playerTraderItems,_itemClassName] call ExileServer_util_searchArray;
+	_index = [_playerTraderItems,_itemClassName] call ExileServer_util_searchItemsArray;
 	
 	if(_index != -1) then 
 	{

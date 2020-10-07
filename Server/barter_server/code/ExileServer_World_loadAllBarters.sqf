@@ -41,7 +41,8 @@ for "_i" from 0 to ((count _traderTypes) - 1) do
 	} forEach _traderItems; 
 	BarterMasterList pushBack _traderArray;
 };
-publicVariable "BarterMasterList";
+ExileClientPlayerBarterMasterList = BarterMasterList;
+publicVariable "ExileClientPlayerBarterMasterList";
 
 "Done loading Barter lists!" call ExileServer_util_log;
 true

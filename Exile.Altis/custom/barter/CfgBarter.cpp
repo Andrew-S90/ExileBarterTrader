@@ -79,13 +79,6 @@
 				min = 1;
 				max = 1;
 			};
-			class DSR_Item_Water_Purification_Tablets 
-			{
-				chance = 90; 
-				block_item = ""; 
-				min = 2;
-				max = 5;
-			};
 			class Exile_Item_CamoTentKit 
 			{
 				chance = 100; 
