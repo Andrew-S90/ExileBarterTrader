@@ -41,4 +41,6 @@ Paste the contents at the bottom of your exile.ini **MODIFY** if using extdb3
 
 For support feel free to post in Exile Discord #support channel: https://discord.gg/cmMMHyJ
 
-Unless something is broken or missing in this initial release I will not provide support or installation help.
+Unless something is broken or missing in this initial release I will not provide support or installation help, you are free to use this release as you wish.
+
+Thank you!
