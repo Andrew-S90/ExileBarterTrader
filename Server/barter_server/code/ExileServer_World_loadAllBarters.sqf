@@ -1,12 +1,9 @@
-/**
- * ExileServer_world_loadAllClans
+ /*
  *
- * Exile Mod
- * www.exilemod.com
- * © 2015 Exile Mod Team
+ * Author: Andrew_S90
  *
- * This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. 
- * To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.
+ * This work is protected by Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0). 
+ *
  */
  
 private["_continueLoading", "_page", "_pageSize", "_clanIDs", "_numberOfClans", "_i"];
@@ -18,7 +15,7 @@ format["clearSavedBarterInfo"] call ExileServer_system_database_query_fireAndFor
 
 
 _traderTypes = (missionConfigfile >> "CfgBarter" >> "Barters") call BIS_fnc_returnChildren;
-diag_log format["_traderTypes %1",_traderTypes];
+
 for "_i" from 0 to ((count _traderTypes) - 1) do 
 {
 	_traderItems = (_traderTypes select _i) call BIS_fnc_returnChildren;

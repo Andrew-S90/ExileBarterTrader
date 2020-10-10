@@ -1,16 +1,9 @@
-/*
- * ExileClient_gui_safeXDialog_updateListBox
+ /*
  *
- * Rewards Client - Made by Andrew_S90
+ * Author: Andrew_S90
  *
- * Derived from ExileMod Code
+ * This work is protected by Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0). 
  *
- * Exile Mod
- * www.exilemod.com
- * © 2015 Exile Mod Team
- *
- * This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. 
- * To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.
  */
  
 private ["_dialog", "_barterListBox", "_barterOfferListBox", "_inventoryListBox", "_inventoryOfferListBox", "_itemClassName", "_itemQuantity", "_indexEntryIndex", "_configName", "_qualityColor", "_popTabColor", "_imageColor", "_list", "_add", "_blocked"];
@@ -35,14 +28,14 @@ lbClear _inventoryOfferListBox;
 	_configName = _itemClassName call ExileClient_util_gear_getConfigNameByClassName;
 	_indexEntryIndex = _barterListBox lbAdd getText(configFile >> _configName >> _itemClassName >> "displayName");
 	_barterListBox lbSetPicture [_indexEntryIndex, getText(configFile >> _configName >> _itemClassName >> "picture")];
-				
+	
 	_qualityColor = [1, 1, 1, 1];
 	_popTabColor = [1, 1, 1, 1];
 	_imageColor = [1, 1, 1, 1];
-				
+	
 	_barterListBox lbSetData [_indexEntryIndex, _itemClassName];
 	_barterListBox lbSetColor [_indexEntryIndex, _qualityColor];
-				
+	
 	_barterListBox lbSetPictureColor [_indexEntryIndex, _imageColor];
 	_barterListBox lbSetTextRight [_indexEntryIndex, format["%1", _itemQuantity]];
 	_barterListBox lbSetColorRight [_indexEntryIndex, _popTabColor];

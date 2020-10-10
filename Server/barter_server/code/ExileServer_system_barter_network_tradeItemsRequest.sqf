@@ -1,4 +1,10 @@
-
+ /*
+ *
+ * Author: Andrew_S90
+ *
+ * This work is protected by Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0). 
+ *
+ */
 private ["_sessionID", "_paramaters", "_flag", "_baseInformation", "_playerObject", "_playerUID", "_lastAttackedAt", "_constructionBlockDuration", "_flagDatabaseID", "_territoryName", "_nearFlag", "_position", "_data", "_extDB2Message"];
 
 _sessionID = _this select 0;
