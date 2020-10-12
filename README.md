@@ -15,12 +15,15 @@ This was developed on a test server with EXTDB2, no infistar and no battleye.
 ### Client
 
 **config.cpp**
+
 Paste the contents into the top of your config file. Modify existing network message section if needed.
 
 **description.ext**
+
 Paste the contents anywhere after `#include "RscDefines.hpp"` appears in your description.ext file
 
 **initplayerlocal.sqf**
+
 After `if (!hasInterface || isServer) exitWith {};` paste the upper contents of initplayerlocal.sqf found in the Client folder
 
 See the the lower portion of this file to see how to add actions to traders so you can open specific traders and their items
@@ -30,12 +33,15 @@ If you are having trouble please view the example mission included.
 ### Server
 
 **Code**
+
 No overrides needed, simply pbo the server folder and place inside your servermod folder (such as @ExileServer)
 
 **SQL**
+
 There is a table that is needed for this to function properly. Please execute the SQL on your Exile database
 
 **Exile.ini**
+
 Paste the contents at the bottom of your exile.ini **MODIFY** if using extdb3
 
 
